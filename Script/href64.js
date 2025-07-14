@@ -1,6 +1,6 @@
 // Ganti semua <a href="https://cdn4.videas.fr/..."> menjadi Cloudflare Worker proxy (base64)
 (function () {
-  const proxy = "https://videaproxy.aneetaku.workers.dev/video?id=";
+  const proxy = "https://videaproxy.bakayabky.workers.dev/video?id=";
 
   function encodeAndReplaceLinks(root) {
     const links = root.querySelectorAll("a[href^='https://cdn4.videas.fr/']");
